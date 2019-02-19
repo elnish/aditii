@@ -5,7 +5,8 @@
     <title>Aditii</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Lobster|Pathway+Gothic+One" rel="stylesheet">
+    <link rel="stylesheet" href="style/media.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Pathway+Gothic+One" rel="stylesheet">
 </head>
 <body>
     <header id="header" class="header">
@@ -13,7 +14,7 @@
             <div class="logo">Aditii</div>
             <div class="form__div">
                 <form action="#" class="form">
-                    <input type="search" class="form__search">  
+                    <input type="search" class="form__search">
                 </form>
                 <i class="fa fa-search" aria-hidden="true"></i>
             </div>
@@ -25,15 +26,15 @@
     </header>
     <nav id="nav" class="navigation">
         <ul class="menu">
-            <li class="menu__item"><a href="#">Home</a></li>
-            <li class="menu__item"><a href="#">Sale</a></li>
-            <li class="menu__item"><a href="#">Wallets</a></li>
-            <li class="menu__item"><a href="#">Handbags</a></li>
-            <li class="menu__item"><a href="#">Accessories</a></li>
-            <li class="menu__item"><a href="#">Mans store</a></li>
-            <li class="menu__item"><a href="#">Shoes</a></li>
-            <li class="menu__item"><a href="#">Vintage</a></li>
-            <li class="menu__item"><a href="#">Services</a></li>
+            <li class="menu__item"><a href="#">Home</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Sale</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Wallets</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Handbags</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Accessories</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Mans store</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Shoes</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Vintage</a></li><span class="menu__item__line">|</span>
+            <li class="menu__item"><a href="#">Services</a></li><span class="menu__item__line">|</span>
             <li class="menu__item"><a href="#">Contact us</a></li>
         </ul>
     </nav>
@@ -41,24 +42,177 @@
     <div class="bunner">
         <div class="container">
             <div>
-                <img src="img/shirt.png" alt="shirt">
+                <img class="bunner__img" src="img/shirt.png" alt="shirt">
             </div>
             <div class="bunner__content">
-                <h1>Cowhide  Standard Crew</h1>
-                <p>White coloured, short-sleeved, printed 
-                    T-shirt for men by Levi's. This crew-neck 
-                    T-shirt is made of organic cotton and comes 
+                <h1 class="bunner__header">Cowhide <br> Standard Crew</h1>
+                <p class="bunner__text">White coloured, short-sleeved, printed
+                    T-shirt for men by Levi's. This crew-neck
+                    T-shirt is made of or-ganic cotton and comes
                     in regular fit.</p>
-                    <input type="button" value = "Show now">
-                    <div>
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                            <i class="fa fa-circle" aria-hidden="true"></i>
-                    </div>
+                <input class="bunner__btn" type="button" value = "Show now">
             </div>
         </div>
     </div>
+    <div class="categories">
+      <div class="container">
+        <div class="angle-left"></div>
+        <div class="categories__item display">
+          <div class="categories_img">
+            <img src="img/shoes.png" alt="shoes" style="width: 217px;
+height: 151px;">
+          </div>
+          <div class="catecories_bay first">
+            <h3>Brended shoes</h3>
+            <input class="shop__btn" type="button" name="shop" value="shop">
+          </div>
+        </div>
+        <div class="categories__item">
+          <div class="categories_img">
+            <img src="img/shirt2.png" alt="shirt" style="width: 132px;
+height: 132px;">
+          </div>
+          <div class="catecories_bay">
+            <h3>Brended tshirts</h3>
+            <input class="shop__btn" type="button" name="shop" value="shop">
+          </div>
+        </div>
+        <div class="categories__item display">
+          <div class="categories_img">
+            <img src="img/pents.png" alt="pents" style="width: 71px;
+height: 127px;">
+          </div>
+          <div class="catecories_bay">
+            <h3>Brended shoes</h3>
+            <input class="shop__btn" type="button" name="shop" value="shop">
+          </div>
+        </div>
+        <div class="angle-right"></div>
+      </div>
+    </div>
+    <div class="products">
+      <div class="container">
+        <div class="products__header">
+          <h2>
+            FEATURED PRODUCTS
+          </h2>
+        </div>
+        <div class="products__item">
+          <img src="img/hils.png" alt="hils" style="width: 189px;
+height: 126px;">
+          <h3>Brended shoe</h3>
+          <div class="bay">
+            <span>$300</span>
+            <input type="button" value="Bay now" class="bay_btn">
+          </div>
+        </div>
+        <div class="products__item">
+          <img src="img/shirt3.png" alt="shirt" style="width: 116px;
+height: 116px;">
+          <h3>Brended tees</h3>
+          <div class="bay">
+            <span>$300</span>
+            <input type="button" value="Bay now" class="bay_btn">
+          </div>
+        </div>
+        <div class="products__item">
+          <img src="img/shirt4.png" alt="shirt" style="width: 105px;
+height: 118px;">
+          <h3>Brended shoe</h3>
+          <div class="bay">
+            <span>$300</span>
+            <input type="button" value="Bay now" class="bay_btn">
+          </div>
+        </div>
+        <div class="products__item">
+          <img src="img/wallet.png" alt="wallet" style="width: 175px;
+height: 131px;">
+          <h3>Brended shoe</h3>
+          <div class="bay">
+            <span>$300</span>
+            <input type="button" value="Bay now" class="bay_btn">
+          </div>
+        </div>
+        <div class="products__item">
+          <img src="img/bag.png" alt="bag" style="width: 140px;
+height: 126px;">
+          <h3>ems women bag</h3>
+          <div class="bay">
+            <span>$300</span>
+            <input type="button" value="Bay now" class="bay_btn">
+          </div>
+        </div>
+        <div class="products__item">
+          <img src="img/pents.png" alt="pents" style="width: 66px;
+height: 119px;">
+          <h3>Brended cargos</h3>
+          <div class="bay">
+            <span>$300</span>
+            <input type="button" value="Bay now" class="bay_btn">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="stores">
+      <div class="stores_item">
+        <h3>Featured sale</h3>
+        <ul class="stores__list">
+          <li class="list__item"><a href="#">Alexis Hudson</a></li>
+          <li class="list__item"><a href="#">American Apparel</a></li>
+          <li class="list__item"><a href="#">Ben Serman</a></li>
+          <li class="list__item"><a href="#">Big Buddha</a></li>
+          <li class="list__item"><a href="#">Chanel</a></li>
+          <li class="list__item"><a href="#">Christian Audigier</a></li>
+          <li class="list__item"><a href="#">Coach</a></li>
+          <li class="list__item"><a href="#">Cloe Haan</a></li>
+        </ul>
+      </div>
+      <div class="stores_item">
+        <h3>Mans store</h3>
+        <ul class="stores__list">
+          <li class="list__item"><a href="#">Alexis Hudson</a></li>
+          <li class="list__item"><a href="#">American Apparel</a></li>
+          <li class="list__item"><a href="#">Ben Serman</a></li>
+          <li class="list__item"><a href="#">Big Buddha</a></li>
+          <li class="list__item"><a href="#">Chanel</a></li>
+          <li class="list__item"><a href="#">Christian Audigier</a></li>
+          <li class="list__item"><a href="#">Coach</a></li>
+          <li class="list__item"><a href="#">Cloe Haan</a></li>
+        </ul>
+      </div>
+      <div class="stores_item">
+        <h3>Women store</h3>
+        <ul class="stores__list">
+          <li class="list__item"><a href="#">Alexis Hudson</a></li>
+          <li class="list__item"><a href="#">American Apparel</a></li>
+          <li class="list__item"><a href="#">Ben Serman</a></li>
+          <li class="list__item"><a href="#">Big Buddha</a></li>
+          <li class="list__item"><a href="#">Chanel</a></li>
+          <li class="list__item"><a href="#">Christian Audigier</a></li>
+          <li class="list__item"><a href="#">Coach</a></li>
+          <li class="list__item"><a href="#">Cloe Haan</a></li>
+        </ul>
+      </div>
+      <div class="stores_item">
+        <h3>Quick links</h3>
+        <ul class="stores__list">
+          <li class="list__item"><a href="#">Alexis Hudson</a></li>
+          <li class="list__item"><a href="#">American Apparel</a></li>
+          <li class="list__item"><a href="#">Ben Serman</a></li>
+          <li class="list__item"><a href="#">Big Buddha</a></li>
+          <li class="list__item"><a href="#">Chanel</a></li>
+          <li class="list__item"><a href="#">Christian Audigier</a></li>
+          <li class="list__item"><a href="#">Coach</a></li>
+          <li class="list__item"><a href="#">Cloe Haan</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <footer id="footer" class="footer">
+      <div class="credits">
+        Copyright &copy; 2013 Css Author
+      </div>
+    </footer>
 </body>
 </html>
