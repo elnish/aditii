@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans|Pathway+Gothic+One" rel="stylesheet">
+    <link rel="stylesheet" href="style/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
 </head>
 <body>
     <header id="header" class="header">
@@ -24,72 +27,191 @@
             </div>
         </div>
     </header>
-    <nav id="nav" class="navigation">
-        <ul class="menu">
-            <li class="menu__item"><a href="#">Home</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Sale</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Wallets</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Handbags</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Accessories</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Mans store</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Shoes</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Vintage</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Services</a></li><span class="menu__item__line">|</span>
-            <li class="menu__item"><a href="#">Contact us</a></li>
+    <nav id="nav" class="menu">
+
+      <div class="menu__icon">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+        <ul class="menu__links">
+            <li class="menu__links-item"><a href="#">Home</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Sale</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Wallets</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Handbags</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Accessories</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Mans store</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Shoes</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Vintage</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Services</a></li><span class="menu__item__line">|</span>
+            <li class="menu__links-item"><a href="#">Contact us</a></li>
         </ul>
+
+
     </nav>
 
     <div class="bunner">
-        <div class="container">
-            <div>
-                <img class="bunner__img" src="img/shirt.png" alt="shirt">
+      <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="bunner container">
+                <div>
+                    <img class="bunner__img" src="img/shirt.png" alt="shirt">
+                </div>
+                <div class="bunner__content">
+                    <h1 class="bunner__header">Cowhide <br> Standard Crew 1</h1>
+                    <p class="bunner__text">White coloured, short-sleeved, printed
+                        T-shirt for men by Levi's. This crew-neck
+                        T-shirt is made of or-ganic cotton and comes
+                        in regular fit.</p>
+                    <input class="bunner__btn" type="button" value = "Show now">
+                </div>
             </div>
-            <div class="bunner__content">
-                <h1 class="bunner__header">Cowhide <br> Standard Crew</h1>
-                <p class="bunner__text">White coloured, short-sleeved, printed
-                    T-shirt for men by Levi's. This crew-neck
-                    T-shirt is made of or-ganic cotton and comes
-                    in regular fit.</p>
-                <input class="bunner__btn" type="button" value = "Show now">
+          </div>
+
+          <div class="swiper-slide">
+            <div class="bunner container">
+                <div class="bunner__content">
+                    <h1 class="bunner__header">Cowhide <br> Standard Crew 2</h1>
+                    <p class="bunner__text">White coloured, short-sleeved, printed
+                        T-shirt for men by Levi's. This crew-neck
+                        T-shirt is made of or-ganic cotton and comes
+                        in regular fit.</p>
+                    <input class="bunner__btn" type="button" value = "Show now">
+                </div>
+                <div>
+                    <img class="bunner__img" src="img/shirt.png" alt="shirt">
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="categories">
-      <div class="container">
-        <div class="angle-left"></div>
-        <div class="categories__item display">
-          <div class="categories_img">
-            <img src="img/shoes.png" alt="shoes" style="width: 217px;
-height: 151px;">
           </div>
-          <div class="catecories_bay first">
-            <h3>Brended shoes</h3>
-            <input class="shop__btn" type="button" name="shop" value="shop">
+
+          <div class="swiper-slide">
+            <div class="bunner container">
+                <div>
+                    <img class="bunner__img" src="img/shirt.png" alt="shirt">
+                </div>
+                <div class="bunner__content">
+                    <h1 class="bunner__header">Cowhide <br> Standard Crew 3</h1>
+                    <p class="bunner__text">White coloured, short-sleeved, printed
+                        T-shirt for men by Levi's. This crew-neck
+                        T-shirt is made of or-ganic cotton and comes
+                        in regular fit.</p>
+                    <input class="bunner__btn" type="button" value = "Show now">
+                </div>
+
+            </div>
           </div>
-        </div>
-        <div class="categories__item">
-          <div class="categories_img">
-            <img src="img/shirt2.png" alt="shirt" style="width: 132px;
-height: 132px;">
+
+          <div class="swiper-slide">
+            <div class="bunner container">
+                <div class="bunner__content">
+                    <h1 class="bunner__header">Cowhide <br> Standard Crew 4</h1>
+                    <p class="bunner__text">White coloured, short-sleeved, printed
+                        T-shirt for men by Levi's. This crew-neck
+                        T-shirt is made of or-ganic cotton and comes
+                        in regular fit.</p>
+                    <input class="bunner__btn" type="button" value = "Show now">
+                </div>
+                <div>
+                    <img class="bunner__img" src="img/shirt.png" alt="shirt">
+                </div>
+            </div>
           </div>
-          <div class="catecories_bay">
-            <h3>Brended tshirts</h3>
-            <input class="shop__btn" type="button" name="shop" value="shop">
+
+          <div class="swiper-slide">
+            <div class="bunner container">
+                <div>
+                    <img class="bunner__img" src="img/shirt.png" alt="shirt">
+                </div>
+                <div class="bunner__content">
+                    <h1 class="bunner__header">Cowhide <br> Standard Crew 3</h1>
+                    <p class="bunner__text">White coloured, short-sleeved, printed
+                        T-shirt for men by Levi's. This crew-neck
+                        T-shirt is made of or-ganic cotton and comes
+                        in regular fit.</p>
+                    <input class="bunner__btn" type="button" value = "Show now">
+                </div>
+
+            </div>
+
           </div>
-        </div>
-        <div class="categories__item display">
-          <div class="categories_img">
-            <img src="img/pents.png" alt="pents" style="width: 71px;
-height: 127px;">
+
           </div>
-          <div class="catecories_bay">
-            <h3>Brended shoes</h3>
-            <input class="shop__btn" type="button" name="shop" value="shop">
-          </div>
-        </div>
-        <div class="angle-right"></div>
+        <div class="swiper-pagination"></div>
+
       </div>
     </div>
+
+
+  <div class="categories">
+    <div class="container">
+      <div class="swiper-container swiper2">
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+            <div class="categories__item display">
+              <div class="categories_img">
+                <img src="img/shoes.png" alt="shoes" style="width: 217px;
+    height: 151px;">
+              </div>
+              <div class="catecories_bay first">
+                <h3>Brended shoes</h3>
+                <input class="shop__btn" type="button" name="shop" value="shop">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="categories__item">
+              <div class="categories_img">
+                <img src="img/shirt2.png" alt="shirt" style="width: 132px;
+    height: 132px;">
+              </div>
+              <div class="catecories_bay">
+                <h3>Brended tshirts</h3>
+                <input class="shop__btn" type="button" name="shop" value="shop">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="categories__item display">
+              <div class="categories_img">
+                <img src="img/pents.png" alt="pents" style="width: 71px;
+    height: 127px;">
+              </div>
+              <div class="catecories_bay">
+                <h3>Brended shoes</h3>
+                <input class="shop__btn" type="button" name="shop" value="shop">
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="categories__item">
+              <div class="categories_img">
+                <img src="img/shirt2.png" alt="shirt" style="width: 132px;
+    height: 132px;">
+              </div>
+              <div class="catecories_bay">
+                <h3>Brended tshirts</h3>
+                <input class="shop__btn" type="button" name="shop" value="shop">
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
     <div class="products">
       <div class="container">
         <div class="products__header">
@@ -214,5 +336,15 @@ height: 119px;">
         Copyright &copy; 2013 Css Author
       </div>
     </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
 </body>
 </html>
