@@ -75,6 +75,10 @@ li {
   color: #404241;
 }
 
+.form__div.hidden {
+  display: none;
+}
+
 .fa-shopping-basket {
   color:  var(--second-color);
   font-size: 27px;
@@ -96,10 +100,12 @@ li {
   margin-left: 10px;
 }
 
+/* MENU */
+
 .menu {
-  background-color: #4ccfc1;
-  text-align: left;
-  padding: 15px;
+    text-align: right;
+    background-color: #4ccfc1;
+    padding: 15px;
 }
 
 .menu__icon {
@@ -135,29 +141,27 @@ li {
   top: 26px;
  }
 
-.menu__links {
-  justify-content: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  text-transform: uppercase;
-  cursor: pointer;
-}
-
+ .menu__links {
+   justify-content: center;
+   padding-top: 8px;
+   padding-bottom: 8px;
+ }
 
 .menu__links-item a,
 .menu__item__line {
-  font-family: 'Pathway Gothic One', sans-serif;
-  color:  var(--main-text-color);
-  font-size: 21px;
-  font-weight: 400;
-  line-height: 19px;
-  text-align: left;
-  margin-left: 20px;
-  transition: color 170ms ease-in-out;
+    color:  var(--main-text-color);
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 19px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 170ms ease-in-out;
 }
 
 .menu__links-item a:hover {
-  color: #0b826e;
+    color: #0b826e;
 }
 
 .menu.menu_state_open .menu__icon span:nth-child(1) {
@@ -184,7 +188,7 @@ li {
   display: block;
 }
 
-
+/* /MENU */
 
 .bunner .container {
   justify-content: center;
@@ -419,60 +423,3 @@ li {
 }
 
 /* Icon  */
-
-.menu__icon {
-    display: none;
-    width: 45px;
-    height: 35px;
-    position: relative;
-    cursor: pointer;
-}
-
-.menu__icon span {
-    display: block;
-    position: absolute;
-    height: 9px;
-    width: 100%;
-    background: #333333;
-    border-radius: 9px;
-    opacity: 1;
-    left: 0;
-    transform: rotate(0deg);
-    transition: .25s ease-in-out;
-}
-
-.menu__icon span:nth-child(1) {
-    top: 0px;
-}
-
-.menu__icon span:nth-child(2), .menu__icon span:nth-child(3) {
-    top: 13px;
-}
-
-.menu__icon span:nth-child(4) {
-    top: 26px;
-}
-
-.navigation.menu_state_open .menu__icon span:nth-child(1) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-}
-
-.navigation.menu_state_open .menu__icon span:nth-child(2) {
-    transform: rotate(45deg);
-}
-
-.navigation.menu_state_open .menu__icon span:nth-child(3) {
-    transform: rotate(-45deg);
-}
-
-.navigation.menu_state_open .menu__icon span:nth-child(4) {
-    top: 18px;
-    width: 0%;
-    left: 50%;
-}
-
-.navigation.menu_state_open .menu__item {
-    display: block;
-}
