@@ -213,9 +213,6 @@ li {
   margin-right: 80px;
 }
 
-.bunner__img:nth-child(n +1) {
-  margin-left: 80px;
-}
 
 .bunner__header {
   font-family: 'Pathway Gothic One', sans-serif;

@@ -29,14 +29,19 @@
     align-items: center;
   }
 
+  .bunner__img {
+    margin-right:0;
+  }
 
   .bunner__header {
     text-align: center;
+
   }
 
   .bunner__btn {
     width: 100%;
     font-size: 37px;
+
   }
 
 .categories .container {
@@ -89,7 +94,10 @@
 }
 
 /* Icon */
-
+.menu {
+  display: flex;
+  flex-direction: column;
+}
 
 .menu__icon{
   display: inline-block;
