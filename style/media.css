@@ -6,27 +6,39 @@
     width: auto;
   }
 
-  /* .form__div.hidden {
-    display: block;
-    position: absolute;
-    right: 10px;
-  }
-
-  .form__div.hidden .form__search {
-    width: auto;
-
-  } */
-
-  .form__div {
-    width: auto;
-  
-  }
-
   .fa-shopping-basket,
   .basket span  {
     font-size: 37px;
   }
 
+  /* Menu */
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu__icon{
+    display: inline-block;
+  }
+
+  .menu__links  {
+    display: none;
+    margin-top: 52px;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    overflow: auto;
+  }
+
+  .menu__links-item {
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+    border-bottom: 1px solid rgba(44, 48, 56, 0.8);
+  }
+
+  .menu__item__line {
+    display: none;
+  }
 
   .bunner .container {
     flex-direction: column;
@@ -39,13 +51,11 @@
 
   .bunner__header {
     text-align: center;
-
   }
 
   .bunner__btn {
     width: 100%;
     font-size: 37px;
-
   }
 
 .categories .container {
@@ -53,9 +63,6 @@
   overflow-x: hidden;
 }
 
-.display {
-  display: none;
-}
 
 .products .container {
   flex-direction: column;
@@ -68,11 +75,33 @@
 }
 
 .products__item {
+  width: 80%;
   margin: 20px;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
-.shop__btn,
+.some_class, .bay {
+  display: flex;
+  flex-direction: column;
+}
+
+.some_class h3 {
+  font-size: 42px;
+}
+
+.bay span {
+  font-size: 35px;
+}
+
 .bay_btn {
+  margin-top: 15px;
+  width: 150px;
+  height: 52px;
+  font-size: 35px;
+}
+
+.shop__btn {
   width: 85px;
   height: 42px;
   font-size: 25px;
@@ -102,35 +131,6 @@
 .list__item a {
   margin-right: 30px;
   font-size: 25px;
-}
-
-/* Icon */
-.menu {
-  display: flex;
-  flex-direction: column;
-}
-
-.menu__icon{
-  display: inline-block;
-}
-
-.menu__links  {
-  display: none;
-  margin-top: 52px;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 1000;
-  overflow: auto;
-}
-
-.menu__links-item {
-  padding: 10px 0;
-  text-align: center;
-  color: #ffffff;
-  border-bottom: 1px solid rgba(44, 48, 56, 0.8);
-}
-
-.menu__item__line {
-  display: none;
 }
 
 }
