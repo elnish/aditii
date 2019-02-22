@@ -6,16 +6,22 @@
     width: auto;
   }
 
-  .form__div.hidden {
+  /* .form__div.hidden {
     display: block;
+    position: absolute;
+    right: 10px;
   }
 
   .form__div.hidden .form__search {
-    width: 280px;
-  }
+    width: auto;
 
-  .form__div.open {
-    display: none;
+  } */
+
+  .form__div {
+    width: auto;
+    position: absolute;
+    right: 20px;
+    top: 130px;
   }
 
   .fa-shopping-basket,
