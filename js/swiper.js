@@ -9,7 +9,6 @@
 
 
   var swiper = new Swiper('.swiper1', {
-
        spaceBetween: 30,
        pagination: {
          el: '.swiper-pagination',
@@ -25,7 +24,7 @@
 
   var swiper2 = new Swiper('.swiper2', {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 30,
       slidesPerGroup: 1,
       loop: true,
       loopFillGroupWithBlank: true,

@@ -24,6 +24,10 @@ li {
   list-style: none;
 }
 
+body {
+  font-size: 16px;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -42,31 +46,37 @@ li {
 .logo {
   font-family: 'Lobster', cursive;
   color:  var(--second-color);
-  font-size: 49px;
+  font-size: 3.06rem;
   font-weight: 400;
   line-height: 19px;
   text-align: left;
 }
-
-.form .form__search {
-  border: 1px solid #e1e1e1;
-  background-color:  var(--main-text-color);
-  width: 434px;
-  height: 31px;
-}
-
 .form__div {
+  display: flex;
   width: 444px;
   position: relative;
 }
 
+input[type=search] {
+  border: 1px solid #e1e1e1;
+  border-right: none;
+  background-color:  var(--main-text-color);
+  width: 412px;
+  height: 31px;
+  padding: 4px;
+  outline: none;
+}
+
+
+
 .fa-search {
   color:  #e3e3e3;
+  background-color:  var(--main-text-color);
   font-size: 22px;
   cursor: pointer;
-  position: absolute;
-  right: 20px;
-  top: 4px;
+  padding: 2px;
+  border: 1px solid #e1e1e1;
+  border-left: none;
   transition: color 170ms ease-in-out;
 }
 
@@ -118,9 +128,10 @@ li {
 .menu__icon span {
   display: block;
   position: absolute;
+  margin-left: 20px;
   height: 9px;
   width: 100%;
-  background: #333333;
+  background: #274f48;
   border-radius: 9px;
   opacity: 1;
   left: 0;
